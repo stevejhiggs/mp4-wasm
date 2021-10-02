@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        padding: 20px;
+        font-size: 14px;
+        font-family: "Helvetica", sans-serif;
+      }
+      p {
+        padding: 0px;
+        margin: 0;
+      }
+      .unsupported {
+        line-height: 2;
+        padding: 10px;
+        color: red;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div>Encoding 120 frames at 1920x1080</div>
+    <div class="unsupported" style="display: none">
+      <p>Error: WebCodecs not enabled or not supported.</p>
+      <p>
+        This will only work in Chrome with "Experimental Web Platform Features"
+        enabled:
+      </p>
+      <p>
+        <a href="chrome://flags/#enable-experimental-web-platform-features"
+          >chrome://flags/#enable-experimental-web-platform-features</a
+        >
+      </p>
+    </div>
+    <br />
+    <canvas style="width: 20vw; height: auto; border: 1px solid black"></canvas>
+    <script type="module" src="./example.js"></script>
+  </body>
+</html>
