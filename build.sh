@@ -1,8 +1,8 @@
 # replace this with your own emsdk path
-EMSDK="/Users/matt/prj/emsdk"
+EMSDK="/usr/local/Cellar/emscripten/2.0.30"
 
 # EMSDK_NODE_BIN="$EMSDK/node/12.18.1_64bit/bin"
-EMSCRIPTEN="$EMSDK/upstream/emscripten"
+EMSCRIPTEN="$EMSDK/libexec"
 PATH="$EMSDK:$EMSCRIPTEN:$EMSDK_NODE_BIN:${PATH}"
 EM_CONFIG="$EMSDK/.emscripten"
 EM_PORTS="$EMSDK/.emscripten_ports"
