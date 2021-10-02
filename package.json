@@ -14,9 +14,9 @@
   "module": "./build/mp4.js",
   "browser": "./build/mp4.js",
   "devDependencies": {
-    "esbuild": "^0.8.44",
+    "esbuild": "^0.13.3",
     "rimraf": "^3.0.2",
-    "serve": "^11.3.2"
+    "serve": "^12.0.1"
   },
   "scripts": {
     "test": "serve .",

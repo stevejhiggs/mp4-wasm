@@ -76,7 +76,7 @@ async function start() {
       const bitmap = await createImageBitmap(canvas);
 
       // Add bitmap to encoder
-      await encoder.addFrame(bitmap);
+      await encoder.addFrame(canvas);
 
       // Trigger next frame loop
       frame++;
